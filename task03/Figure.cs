@@ -4,7 +4,7 @@ namespace task03;
 
 public class Figure
 {
-    // private string nameFigure { get; set {return setName();};};
+    public string? Name { get; set; }
     private Point[] points;
     
     public Figure(Point[] args)
